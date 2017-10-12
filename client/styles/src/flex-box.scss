@@ -1,0 +1,40 @@
+.week-list {
+  margin: 50px 1% 0 1%;
+  width: 98%;
+  min-height: 640px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.week {
+  padding-top: 33px;
+  margin-left: 3%;
+  min-width: 20%;
+  height: 80px;
+  text-align: center;
+  color: white;
+  min-height: 80px;
+  background-color: #bbbbbb;
+}
+
+.week:hover {
+  background-color: #cccccc;
+}
+
+.new-week-button {
+  margin-left: 3%;
+  min-width: 20%;
+  height: 80px;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  background-color: #bbbbbb;
+}
+
+.new-week-button:hover {
+  background-color: #cccccc;
+}
+
+a.new-week-button {
+  text-decoration: none;
+}
